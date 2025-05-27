@@ -6,7 +6,15 @@
     "build": "react-router build",
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
-    "typecheck": "react-router typegen && tsc"
+    "typecheck": "react-router typegen && tsc",
+    "audit": "audit-ci",
+    "license-compliance": "license-compliance -r detailed",
+    "eslint:check": "eslint .",
+    "eslint:fix": "eslint --fix ./",
+    "lint:all": "pre-commit run --all-files --hook-stage pre-commit && pre-commit run --all-files --hook-stage pre-push",
+    "prettier:check": "prettier --check .",
+    "prettier:fix": "prettier --write .",
+    "fix": "pnpm run eslint:fix && pnpm run prettier:fix"
   },
   "dependencies": {
     "@react-router/node": "^7.5.3",
@@ -17,13 +25,28 @@
     "react-router": "^7.5.3"
   },
   "devDependencies": {
+    "@eslint/compat": "^1.2.9",
+    "@eslint/js": "^9.27.0",
     "@react-router/dev": "^7.5.3",
     "@tailwindcss/vite": "^4.1.4",
     "@types/node": "^20",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
+    "@typescript-eslint/eslint-plugin": "^8.32.1",
+    "@vitest/eslint-plugin": "^1.2.1",
+    "audit-ci": "^7.1.0",
+    "eslint": "^9.27.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "eslint-plugin-testing-library": "^7.2.2",
+    "eslint-plugin-unicorn": "^59.0.1",
+    "globals": "^16.2.0",
+    "license-compliance": "^3.0.1",
+    "prettier": "^3.5.3",
     "tailwindcss": "^4.1.4",
     "typescript": "^5.8.3",
+    "typescript-eslint": "^8.32.1",
     "vite": "^6.3.3",
     "vite-tsconfig-paths": "^5.1.4"
   }
