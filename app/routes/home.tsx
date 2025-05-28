@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router'
 
-import { Welcome } from '../welcome/welcome'
+import { Welcome } from '../components/welcome/welcome'
 
 export function meta() {
   return [
