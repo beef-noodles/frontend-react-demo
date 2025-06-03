@@ -1,5 +1,3 @@
-import { NavLink } from 'react-router'
-
 import { Welcome } from '../components/welcome/welcome'
 
 export function meta() {
@@ -13,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Welcome />
-      <ul className="nav">
+      {/* <ul className="nav">
         <li>
           <NavLink to="/" end>
             Home
@@ -26,7 +24,7 @@ export default function Home() {
         <li>
           <NavLink to="/about">About</NavLink>
         </li>
-      </ul>
+      </ul> */}
     </>
   )
 }
