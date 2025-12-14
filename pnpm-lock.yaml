@@ -35,13 +35,13 @@ importers:
         version: 9.39.1
       '@react-router/dev':
         specifier: ^7.5.3
-        version: 7.6.1(@react-router/serve@7.6.1(react-router@7.6.1(react-dom@19.2.1(react@19.2.1))(react@19.2.1))(typescript@5.8.3))(@types/node@20.17.57)(jiti@2.6.1)(lightningcss@1.30.2)(react-router@7.6.1(react-dom@19.2.1(react@19.2.1))(react@19.2.1))(typescript@5.8.3)(vite@6.3.5(@types/node@20.17.57)(jiti@2.6.1)(lightningcss@1.30.2))
+        version: 7.6.1(@react-router/serve@7.6.1(react-router@7.6.1(react-dom@19.2.1(react@19.2.1))(react@19.2.1))(typescript@5.8.3))(@types/node@20.19.27)(jiti@2.6.1)(lightningcss@1.30.2)(react-router@7.6.1(react-dom@19.2.1(react@19.2.1))(react@19.2.1))(typescript@5.8.3)(vite@6.3.5(@types/node@20.19.27)(jiti@2.6.1)(lightningcss@1.30.2))
       '@tailwindcss/vite':
         specifier: ^4.1.4
-        version: 4.1.17(vite@6.3.5(@types/node@20.17.57)(jiti@2.6.1)(lightningcss@1.30.2))
+        version: 4.1.17(vite@6.3.5(@types/node@20.19.27)(jiti@2.6.1)(lightningcss@1.30.2))
       '@types/node':
         specifier: ^20
-        version: 20.17.57
+        version: 20.19.27
       '@types/react':
         specifier: ^19.1.2
         version: 19.2.7
@@ -68,7 +68,7 @@ importers:
         version: 7.37.5(eslint@9.39.1(jiti@2.6.1))
       eslint-plugin-react-refresh:
         specifier: ^0.4.20
-        version: 0.4.24(eslint@9.39.1(jiti@2.4.2))
+        version: 0.4.24(eslint@9.39.1(jiti@2.6.1))
       eslint-plugin-testing-library:
         specifier: ^7.2.2
         version: 7.2.2(eslint@9.39.1(jiti@2.6.1))(typescript@5.8.3)
@@ -95,10 +95,10 @@ importers:
         version: 8.32.1(eslint@9.39.1(jiti@2.6.1))(typescript@5.8.3)
       vite:
         specifier: ^6.3.3
-        version: 6.3.5(@types/node@20.17.57)(jiti@2.6.1)(lightningcss@1.30.2)
+        version: 6.3.5(@types/node@20.19.27)(jiti@2.6.1)(lightningcss@1.30.2)
       vite-tsconfig-paths:
         specifier: ^5.1.4
-        version: 5.1.4(typescript@5.8.3)(vite@6.3.5(@types/node@20.17.57)(jiti@2.6.1)(lightningcss@1.30.2))
+        version: 5.1.4(typescript@5.8.3)(vite@6.3.5(@types/node@20.19.27)(jiti@2.6.1)(lightningcss@1.30.2))
 
 packages:
 
@@ -799,8 +799,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@20.17.57':
-    resolution: {integrity: sha512-f3T4y6VU4fVQDKVqJV4Uppy8c1p/sVvS3peyqxyWnzkqXFJLRU7Y1Bl7rMS1Qe9z0v4M6McY0Fp9yBsgHJUsWQ==}
+  '@types/node@20.19.27':
+    resolution: {integrity: sha512-N2clP5pJhB2YnZJ3PIHFk5RkygRX5WO/5f0WC08tp0wd+sv0rsJk3MqWn3CbNmT2J505a5336jaQj4ph1AdMug==}
 
   '@types/react-dom@19.2.3':
     resolution: {integrity: sha512-jp2L/eY6fn+KgVVQAOqYItbF0VY/YApe5Mz2F0aykSO8gx31bYCZyvSeYxCHKvzHG5eZjc+zyaS5BrBWya2+kQ==}
@@ -2602,8 +2602,8 @@ packages:
     resolution: {integrity: sha512-nWJ91DjeOkej/TA8pXQ3myruKpKEYgqvpw9lz4OPHj/NWFNluYrjbz9j01CJ8yKQd2g4jFoOkINCTW2I5LEEyw==}
     engines: {node: '>= 0.4'}
 
-  undici-types@6.19.8:
-    resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==}
+  undici-types@6.21.0:
+    resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
 
   undici@6.21.3:
     resolution: {integrity: sha512-gBLkYIlEnSp8pFbT64yFgGE6UIB9tAkhukC23PmMDCe5Nd+cRqKxSjw5y54MK2AZMgZfJWMaNE4nYUHgi1XEOw==}
@@ -3209,7 +3209,7 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@react-router/dev@7.6.1(@react-router/serve@7.6.1(react-router@7.6.1(react-dom@19.2.1(react@19.2.1))(react@19.2.1))(typescript@5.8.3))(@types/node@20.17.57)(jiti@2.6.1)(lightningcss@1.30.2)(react-router@7.6.1(react-dom@19.2.1(react@19.2.1))(react@19.2.1))(typescript@5.8.3)(vite@6.3.5(@types/node@20.17.57)(jiti@2.6.1)(lightningcss@1.30.2))':
+  '@react-router/dev@7.6.1(@react-router/serve@7.6.1(react-router@7.6.1(react-dom@19.2.1(react@19.2.1))(react@19.2.1))(typescript@5.8.3))(@types/node@20.19.27)(jiti@2.6.1)(lightningcss@1.30.2)(react-router@7.6.1(react-dom@19.2.1(react@19.2.1))(react@19.2.1))(typescript@5.8.3)(vite@6.3.5(@types/node@20.19.27)(jiti@2.6.1)(lightningcss@1.30.2))':
     dependencies:
       '@babel/core': 7.27.1
       '@babel/generator': 7.27.1
@@ -3238,8 +3238,8 @@ snapshots:
       semver: 7.7.2
       set-cookie-parser: 2.7.1
       valibot: 0.41.0(typescript@5.8.3)
-      vite: 6.3.5(@types/node@20.17.57)(jiti@2.6.1)(lightningcss@1.30.2)
-      vite-node: 3.0.0-beta.2(@types/node@20.17.57)(jiti@2.6.1)(lightningcss@1.30.2)
+      vite: 6.3.5(@types/node@20.19.27)(jiti@2.6.1)(lightningcss@1.30.2)
+      vite-node: 3.0.0-beta.2(@types/node@20.19.27)(jiti@2.6.1)(lightningcss@1.30.2)
     optionalDependencies:
       '@react-router/serve': 7.6.1(react-router@7.6.1(react-dom@19.2.1(react@19.2.1))(react@19.2.1))(typescript@5.8.3)
       typescript: 5.8.3
@@ -3422,12 +3422,12 @@ snapshots:
       '@tailwindcss/oxide-win32-arm64-msvc': 4.1.17
       '@tailwindcss/oxide-win32-x64-msvc': 4.1.17
 
-  '@tailwindcss/vite@4.1.17(vite@6.3.5(@types/node@20.17.57)(jiti@2.6.1)(lightningcss@1.30.2))':
+  '@tailwindcss/vite@4.1.17(vite@6.3.5(@types/node@20.19.27)(jiti@2.6.1)(lightningcss@1.30.2))':
     dependencies:
       '@tailwindcss/node': 4.1.17
       '@tailwindcss/oxide': 4.1.17
       tailwindcss: 4.1.17
-      vite: 6.3.5(@types/node@20.17.57)(jiti@2.6.1)(lightningcss@1.30.2)
+      vite: 6.3.5(@types/node@20.19.27)(jiti@2.6.1)(lightningcss@1.30.2)
 
   '@types/estree@1.0.7': {}
 
@@ -3437,9 +3437,9 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/node@20.17.57':
+  '@types/node@20.19.27':
     dependencies:
-      undici-types: 6.19.8
+      undici-types: 6.21.0
 
   '@types/react-dom@19.2.3(@types/react@19.2.7)':
     dependencies:
@@ -4099,7 +4099,7 @@ snapshots:
       - eslint-import-resolver-webpack
       - supports-color
 
-  eslint-plugin-react-refresh@0.4.24(eslint@9.39.1(jiti@2.4.2)):
+  eslint-plugin-react-refresh@0.4.24(eslint@9.39.1(jiti@2.6.1)):
     dependencies:
       eslint: 9.39.1(jiti@2.6.1)
 
@@ -5513,7 +5513,7 @@ snapshots:
       has-symbols: 1.1.0
       which-boxed-primitive: 1.1.1
 
-  undici-types@6.19.8: {}
+  undici-types@6.21.0: {}
 
   undici@6.21.3: {}
 
@@ -5548,13 +5548,13 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite-node@3.0.0-beta.2(@types/node@20.17.57)(jiti@2.6.1)(lightningcss@1.30.2):
+  vite-node@3.0.0-beta.2(@types/node@20.19.27)(jiti@2.6.1)(lightningcss@1.30.2):
     dependencies:
       cac: 6.7.14
       debug: 4.4.1
       es-module-lexer: 1.7.0
       pathe: 1.1.2
-      vite: 6.3.5(@types/node@20.17.57)(jiti@2.6.1)(lightningcss@1.30.2)
+      vite: 6.3.5(@types/node@20.19.27)(jiti@2.6.1)(lightningcss@1.30.2)
     transitivePeerDependencies:
       - '@types/node'
       - jiti
@@ -5569,18 +5569,18 @@ snapshots:
       - tsx
       - yaml
 
-  vite-tsconfig-paths@5.1.4(typescript@5.8.3)(vite@6.3.5(@types/node@20.17.57)(jiti@2.6.1)(lightningcss@1.30.2)):
+  vite-tsconfig-paths@5.1.4(typescript@5.8.3)(vite@6.3.5(@types/node@20.19.27)(jiti@2.6.1)(lightningcss@1.30.2)):
     dependencies:
       debug: 4.4.1
       globrex: 0.1.2
       tsconfck: 3.1.6(typescript@5.8.3)
     optionalDependencies:
-      vite: 6.3.5(@types/node@20.17.57)(jiti@2.6.1)(lightningcss@1.30.2)
+      vite: 6.3.5(@types/node@20.19.27)(jiti@2.6.1)(lightningcss@1.30.2)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  vite@6.3.5(@types/node@20.17.57)(jiti@2.6.1)(lightningcss@1.30.2):
+  vite@6.3.5(@types/node@20.19.27)(jiti@2.6.1)(lightningcss@1.30.2):
     dependencies:
       esbuild: 0.25.4
       fdir: 6.4.4(picomatch@4.0.2)
@@ -5589,7 +5589,7 @@ snapshots:
       rollup: 4.41.1
       tinyglobby: 0.2.14
     optionalDependencies:
-      '@types/node': 20.17.57
+      '@types/node': 20.19.27
       fsevents: 2.3.3
       jiti: 2.6.1
       lightningcss: 1.30.2
